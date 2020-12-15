@@ -18,7 +18,7 @@ import java.io.Serializable;
  */
 // indexName为索引名称,type为该索引下的类型
 @Data
-@Document(indexName = "blog",indexStoreType = "article")
+@Document(indexName = "blog",type = "article")
 public class Article implements Serializable {
     @Id
     private Long id;
